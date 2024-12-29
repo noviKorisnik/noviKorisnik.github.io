@@ -5,8 +5,8 @@
     <title>Redirecting...</title>
     <script>
         const path = window.location.pathname;
-        if (path.startsWith('/auth')) {
-            alert(path);
+        if (path.startsWith('/auth/')) {
+            window.location = `/?path=${path}`;
         } else {
             window.location = '/';
         }
