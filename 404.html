@@ -4,16 +4,12 @@
     <meta charset="utf-8">
     <title>Redirecting...</title>
     <script>
-        const origin = window.location.origin;
         const path = window.location.pathname;
-        const search = window.location.search;
-        const hash = window.location.hash;
-        let redirectTo = origin
-            + 'index.html'
-            + path ? path : ''
-            + search ? `?${search}` : ''
-            + hash ? `#${hash}` : '';
-        window.location = '/';
+        if (path != '/auth/github/callback') {
+            window.location = '/';
+        } else {
+            alert(path);
+        }
     </script>
   </head>
   <body>
