@@ -4,9 +4,17 @@
     <meta charset="utf-8">
     <title>Redirecting...</title>
     <script>
-      const path = window.location.pathname;
-      const search = window.location.search;
-      console.log(window.location, path, search);
+        const origin = window.location.origin;
+        const path = window.location.pathname;
+        const search = window.location.search;
+        const hash = window.location.hash;
+        let redirectTo = origin
+            + 'index.html'
+            + path ? path : ''
+            + search ? `?${search}` : ''
+            + hash ? `#${hash}` : '';
+
+      console.log(redirectTo);
 //      window.location.href = 'https://novikorisnik.github.io/' + (path !== '/404.html' ? path + search : '');
     </script>
   </head>
