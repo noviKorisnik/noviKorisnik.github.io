@@ -13,7 +13,7 @@
             + path ? path : ''
             + search ? `?${search}` : ''
             + hash ? `#${hash}` : '';
-        window.location.redirectTo(redirectTo);
+        window.location.replace(redirectTo);
     </script>
   </head>
   <body>
