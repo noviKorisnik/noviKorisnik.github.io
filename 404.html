@@ -3,11 +3,30 @@
 <head>
     <script>
         const path = window.location.pathname;
-        const pathParts = path.split('/').filter(part => part.length > 0);
-        const basePath = `/${pathParts.shift()}/`;
         const searchParams = window.location.search;
-        localStorage.setItem('redirect', `/${pathParts.join('/')}${searchParams}`);
-        window.location.href = basePath;
+
+        const knownAppFolders = ['aix', 'portfolio']; // Define all your Angular app subfolders
+        
+        let targetBasePath = '/aix/'; // Default redirect to 'aix' app's base
+        let targetAppRelativePath = '/'; // Default internal path for the target app
+
+        const pathSegments = path.split('/').filter(segment => segment.length > 0);
+
+        if (pathSegments.length > 0) {
+            const firstSegment = pathSegments[0];
+            if (knownAppFolders.includes(firstSegment)) {
+                // User tried to access a path under a known app folder (e.g., /aix/some/page)
+                targetBasePath = `/${firstSegment}/`;
+                // Capture the path *after* the app folder for Angular's router
+                targetAppRelativePath = `/${pathSegments.slice(1).join('/')}${searchParams}`;
+                if (targetAppRelativePath !== '') {
+                    localStorage.setItem('redirect', targetAppRelativePath);
+                }
+            }
+        }
+        
+        // Always redirect the browser to the determined base path of the app
+        window.location.href = targetBasePath;
     </script>
 </head>
 <body>
