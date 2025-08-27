@@ -3,9 +3,11 @@
 <head>
     <script>
         const path = window.location.pathname;
+        const pathParts = path.split('/').filter(part => part.length > 0);
+        const basePath = `/${pathParts.shift()}/`;
         const searchParams = window.location.search;
-        localStorage.setItem('redirect', path + searchParams);
-        window.location.href = '/aix/';
+        localStorage.setItem('redirect', `/${pathParts.join('/')}${searchParams}`);
+        window.location.href = basePath;
     </script>
 </head>
 <body>
