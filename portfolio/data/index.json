@@ -1,0 +1,103 @@
+{
+  "id": "site",
+  "title": "nK Portfolio",
+  "tagline": "Dejan Katasic, aka noviKorisnik, aka Boneco Biruta",
+  "sections": [
+    {
+      "id": "public",
+      "title": "Public Projects",
+      "tagline": "Independent apps and experiments",
+      "sections": [
+        {
+          "id": "aix",
+          "title": "AI Knowledge Studio",
+          "tagline": "AI-guided development and publishing tool for structured knowledge sessions."
+        },
+        {
+          "id": "portfolio",
+          "title": "Portfolio",
+          "tagline": "A lightweight, configurable showcase of projects and career highlights."
+        }
+      ]
+    },
+    {
+      "id": "payspot",
+      "title": "PaySpot",
+      "tagline": "Financial services applications",
+      "sections": [
+        {
+          "id": "paymi",
+          "title": "PaymI",
+          "tagline": "Core payment application"
+        },
+        {
+          "id": "paymi-2",
+          "title": "PaymI2",
+          "tagline": "Redesigned modern financial platform"
+        },
+        {
+          "id": "multi-db",
+          "title": "MultiDb",
+          "tagline": "Database synchronization tool"
+        },
+        {
+          "id": "scrummy",
+          "title": "Scrummy",
+          "tagline": "Custom Scrum flow management app"
+        },
+        {
+          "id": "bgw",
+          "title": "Background Worker",
+          "tagline": "Asynchronous task processing system"
+        },
+        {
+          "id": "libraries",
+          "title": "Libraries",
+          "tagline": "Reusable components and utilities"
+        }
+      ]
+    },
+    {
+      "id": "bank",
+      "title": "Crédit Agricole",
+      "tagline": "14 years of enterprise software development in the banking sector"
+    },
+    {
+      "id": "misc",
+      "title": "Miscellaneous & Earlier Work",
+      "tagline": "Earlier and side projects",
+      "sections": [
+        {
+          "id": "boxup",
+          "title": "BoxUp",
+          "tagline": "Puzzle game experiment"
+        },
+        {
+          "id": "sokoban",
+          "title": "Sokoban",
+          "tagline": "Classic puzzle adaptation"
+        },
+        {
+          "id": "exit-photos",
+          "title": "Exit Photos",
+          "tagline": "Festival photography archive"
+        },
+        {
+          "id": "old-portfolio",
+          "title": "Old Portfolio",
+          "tagline": "My early web showcase (2002)"
+        }
+      ]
+    },
+    {
+      "id": "about",
+      "title": "About",
+      "tagline": "Background and journey"
+    },
+    {
+      "id": "contact",
+      "title": "Contact",
+      "tagline": "Get in touch"
+    }
+  ]
+}
