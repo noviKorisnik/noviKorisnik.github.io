@@ -45,3 +45,7 @@ The tool allows interactive chat sessions with an AI agent, where discussions ar
 The app was deployed both for personal use and internally within PaySpot, where it helped create six structured books from development sessions.  
 
 AI Knowledge Studio was also shared publicly on the Sourcegraph showcase, highlighting its potential as a **tool for knowledge capture and presentation**.
+
+
+![Editor Screenshot](images/projects/project-a/Toc.png)
+![Live Preview Screenshot](images/projects/project-a/Sidebar.png)
