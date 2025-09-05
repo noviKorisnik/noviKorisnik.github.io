@@ -53,9 +53,46 @@
       ]
     },
     {
+      "id": "bank",
+      "title": "Crédit Agricole",
+      "tagline": "14 years of enterprise software development in the banking sector"
+    },
+    {
+      "id": "misc",
+      "title": "Miscellaneous & Earlier Work",
+      "tagline": "Earlier and side projects",
+      "sections": [
+        {
+          "id": "boxup",
+          "title": "BoxUp",
+          "tagline": "Puzzle game experiment"
+        },
+        {
+          "id": "sokoban",
+          "title": "Sokoban",
+          "tagline": "Classic puzzle adaptation"
+        },
+        {
+          "id": "exit-photos",
+          "title": "Exit Photos",
+          "tagline": "Festival photography archive"
+        },
+        {
+          "id": "old-portfolio",
+          "title": "Old Portfolio",
+          "tagline": "My early web showcase (2002)"
+        }
+      ]
+    },
+    {
       "id": "about",
-      "title": "About Me",
-      "tagline": "My journey, skills, and philosophy as a software professional"
+      "title": "About",
+      "tagline": "Background and journey"
+    },
+    {
+      "id": "contact",
+      "title": "Contact",
+      "tagline": "Get in touch"
     }
   ]
 }

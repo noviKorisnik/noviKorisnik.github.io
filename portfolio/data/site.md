@@ -1,20 +1,5 @@
-TBD - more personal intro here.
+*Welcome • Explore • Connect*
 
-Welcome to my portfolio — a curated showcase of my work, ideas, and personal story. Dive into projects, learn about my background, or just explore.
+You are invited to explore my portfolio, a curated collection of my work as a Software Architect and Full-Stack Developer. Here, I showcase projects that reflect my passion for building robust, scalable, and intuitive web applications, as well as my drive to innovate with emerging technologies, particularly in the realm of Artificial Intelligence.
 
-Feel free to browse around and reach out if anything sparks your interest.
-
----
-
-Welcome to my portfolio.  
-
-Here you will find an overview of my professional journey, spanning **long-term enterprise projects**, **core system design**, and **personal explorations** in software development.  
-
-The structure follows several main groups:  
-
-- **Personal Projects** — independent ideas and experiments, including AI-assisted tools.  
-- **PaySpot** — financial technology applications and supporting ecosystem.  
-- **Banking (Crédit Agricole)** — 14 years of enterprise development, foundational to much of my later work.  
-- **Miscellaneous** — smaller projects and early experiments.  
-
-Each section includes **summaries, technical focus points, and selected highlights** to give a clear picture of my experience.
+From independent ventures that push creative boundaries to foundational contributions in complex financial systems, this site offers insights into my architectural philosophy, problem-solving approach, and dedication to delivering impactful solutions. I hope you find this journey through my work both informative and inspiring.

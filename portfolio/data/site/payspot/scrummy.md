@@ -1,32 +1,43 @@
-**Scrummy** is an internal tool built to improve our team’s Scrum-based development workflow. While we used IceScrum as the primary project management system, it often didn’t fully match our needs. Scrummy was created to integrate with the **IceScrum API** and provide a more customized, streamlined experience for our team.
+*Internal Project • Development Workflow • Customization*
 
-### Key Features
+## Streamlining Our Scrum Workflow
 
-* **Story Acceptance Workflow**
+**Scrummy** is an internal tool I designed and implemented to significantly improve our team’s Scrum-based development workflow. While my team used IceScrum as our primary project management system, it often didn’t fully align with our specific needs. The solution developed was Scrummy, integrating it with the **IceScrum API** to provide a more customized, streamlined, and efficient experience for our team.
 
-  * Stories move through a structured pipeline: *draft → analysis → acceptance decision → accepted → estimated*.
-  * During **analysis**, solution proposals and implementation tasks are defined.
-  * At **acceptance**, approved stories automatically generate implementation tasks.
-  * Story estimation is calculated based on task effort, making planning more reliable.
-  * Stories can be rejected and returned to earlier states (e.g., draft or analysis).
+### My Role & Contributions
 
-* **Task Management**
+I was responsible for designing and implementing the **core story acceptance workflow** within Scrummy, along with its tight integration with IceScrum. My primary focus was on creating a clear, automated flow for stories and enabling the intelligent generation and estimation of tasks.
 
-  * Goal: allow full task handling directly inside Scrummy.
-  * Team members don’t need to use IceScrum’s interface at all.
+### Key Features Developed
 
-### Technology
+The development of Scrummy focused on features that addressed our team's specific pain points and enhanced productivity:
 
-* **Node.js** backend – a shift from the .NET ecosystem, marking an exploration of new technologies.
-* Tight integration with **IceScrum API** for seamless synchronization.
-* Frontend designed for **workflow clarity**, minimizing friction in story and task handling.
+*   **Customizable Story Acceptance Workflow**
+    *   Stories now move through a structured pipeline: *draft → analysis → acceptance decision → accepted → estimated*.
+    *   During the **analysis** phase, solution proposals and implementation tasks could be clearly defined.
+    *   Crucially, at the **acceptance** stage, approved stories automatically generate their corresponding implementation tasks.
+    *   The system was designed to calculate story estimation based on task effort, making our planning processes more reliable.
+    *   Flexibility was also built in for stories to be rejected and seamlessly returned to earlier states (e.g., draft or analysis).
+
+*   **Comprehensive Task Management**
+    *   An overarching goal was to enable full task handling directly inside Scrummy.
+    *   This meant our team members no longer needed to interact with IceScrum’s interface at all for their daily task management.
+
+![Product Stories Page](data/images/scrummy.png "Scrummy's product stories page: interactive filters and story cards.")
+
+### Technology Stack
+
+This project presented an exciting opportunity to explore new technologies. The application was built leveraging:
+
+*   **Frontend**: Angular
+*   **Backend**: Node.js, TypeORM with SQLite
+*   Tight integration with the **IceScrum API** was central to ensuring seamless data synchronization.
+*   The frontend was meticulously designed for **workflow clarity**, aiming to minimize friction in our story and task handling processes.
 
 ### Business Impact
 
-* Improved **transparency and control** over the story acceptance process.
-* Reduced reliance on IceScrum UI, saving time and aligning the tool more closely with our actual process.
-* Helped the team maintain a **consistent definition of “ready” stories** before estimation.
+The implementation of Scrummy brought tangible benefits to the team:
 
-### Role
-
-I designed and implemented the **core acceptance workflow** and integration with IceScrum. My work focused on creating a clear flow for stories and enabling automation around task generation and estimation.
+*   Improved **transparency and control** over the entire story acceptance process was achieved.
+*   The tool significantly reduced our reliance on the IceScrum UI, saving valuable time and aligning our process more closely with our actual development practices.
+*   Scrummy played a key role in helping our team maintain a **consistent and shared definition of “ready” stories** before they proceeded to estimation.

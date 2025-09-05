@@ -1,51 +1,54 @@
-*Solo project • Public deployment • GitHub Pages / Azure*
+*Solo Project • Public Deployment • GitHub Pages / Azure*
 
-An application for transforming AI-assisted development sessions into structured, publishable books. Built to document both personal and internal company projects, it supports Cody chat history import, session analysis, and book structuring with the help of Cohere AI. Sessions are parsed into Markdown-like views with intros, conclusions, and thematic grouping.
+## Transforming AI Sessions into Structured Books
 
-> **Notable Features**:
->
-> * Book-like session structuring using AI
-> * Multiple deployment environments (internal, test, production)
-> * Final output showcased at: 🔗 [AI Knowledge Studio](https://novikorisnik.github.io/)
+**AI Knowledge Studio** is a personal tool I designed to transform AI-assisted development sessions into structured, publishable books. My goal with this application was to create a method for documenting both my personal and internal company projects, going beyond simple chat logs to capture iterative thinking and design in a more organized, book-like format.
 
+### My Collaborative AI Journey
 
-Over the past months, I’ve been developing **AI Knowledge Studio**, a personal tool designed to turn AI-assisted development sessions into structured, readable books.
+Throughout this project, various AI agents were enlisted, each playing a unique and complementary role in bringing AI Knowledge Studio to life:
 
-The app now holds **two books**, both built from sessions conducted within the app itself — the second continuing seamlessly from where the first left off.
+*   **Cody** was my constant development assistant—a real-time chat companion who collaborated with me through every step of building the app.
+*   **Cohere** powered the core content analysis pipeline. This was used to extract summaries, identify key topics, and generate the structural elements of each book: titles, intros, and conclusions. For the second book, as Cody's sunset approached, **a more theatrical writing style was specifically requested from Cohere**, drawing inspiration from my personal history with the term "ex Life Theater." This shift in style, to a more evocative and dramatic tone, significantly enhanced the readability and engagement compared to the first book's descriptions, proving that style truly matters.
+*   **Amp** stepped in to help refine and append the final Cody session, ensuring a proper epilogue for the second book.
+*   **ChatGPT**'s role involved orchestrating that final session with Cody, ensuring a proper epilogue, updating the About page, and shaping how this story is told.
 
-Throughout the project, different AI agents played unique and complementary roles:
+The second book even closes with a poignant farewell from Cody, a message it generated just before its sunset, offering a fitting reflection on the collaborative nature of building with AI. I've included a screenshot of this very last conversation.
 
-* **Cody** was my development assistant — a real-time chat companion who collaborated with me as I built the app.
-* **Cohere** powered the content analysis pipeline — extracting summaries, topics, and generating the structural elements of each book: titles, intros, conclusions.
-* **Amp** stepped in to help refine and append the final Cody session, ensuring a proper epilogue to the second book.
-* And this ongoing collaboration — here with ChatGPT — helped orchestrate the final steps, update the About page, and shape how the story is told.
+![Cody's Farewell Message](data/images/aix-cody.png "The final exchange with Cody, an AI development assistant, as it bids farewell before its sunset, marking the completion of the second book.")
 
-The second book closes with a farewell from Cody, written just before its sunset — a fitting reflection on the nature of building with AI.
+### Key Implemented Features
 
-This might only be the beginning. The project could grow, and the site might expand to document each new phase — not just the development of the app, but how we build *with* AI.
+My focus was on building features that streamline the process of transforming raw chat into valuable knowledge:
+
+*   **Book-like Session Structuring using AI**: The application was designed to leverage AI to convert conversational logs into hierarchical chapters and parts of a book, adding intros, conclusions, and thematic grouping.
+*   **Cody Chat History Import**: Direct import of chat transcripts from Sourcegraph’s Cody was enabled, making it easy to bring in existing development dialogues.
+*   **Structured Knowledge Representation**: The system was developed to organize conversations into easily navigable sections, enhancing the ability to revisit and understand complex iterative processes.
+*   **Markdown Display**: All content is rendered directly in Markdown for optimal readability, offering a clean, view-only experience.
+
+![Table of Contents Screenshot](data/images/aix-toc.png "A look at the structured table of contents generated by AI Knowledge Studio.")
+
+### My Experience and Impact
+
+AI Knowledge Studio has proven its value in several use cases:
+
+*   **Capturing iterative design sessions**: It has been invaluable for turning ongoing discussions and thought processes into clear documentation.
+*   **Generating structured documentation**: It has been used to produce structured technical and conceptual documentation that's far more digestible than raw notes.
+*   **Internal Knowledge Sharing**: Beyond personal use, the app was also deployed internally within PaySpot, where it successfully generated **six structured books** from various internal development sessions, demonstrating its utility for broader knowledge capture.
+
+![Sidebar Navigation Preview](data/images/aix-sidebar.png "Sidebar Navigation Preview")
+
+### Technologies Used
+
+This project was built leveraging a robust stack of modern technologies:
+
+*   **Frontend**: Angular
+*   **Backend**: Node.js, TypeORM with SQLite/Mongo Db
+*   **AI Integration**: Cohere API, Sourcegraph Cody
+*   **Deployment**: GitHub Pages, Microsoft Azure
 
 ---
 
-**AI Knowledge Studio** is a personal project built to explore how AI can be used as a collaborative partner in creating structured knowledge.  
+**Final Output Showcased At:** 🔗 [AI Knowledge Studio](https://novikorisnik.github.io/aix)
 
-### Concept
-The tool allows interactive chat sessions with an AI agent, where discussions are transformed into **chapters and parts of a book-like format**. This creates a structured record of iterative thinking and design, going beyond plain conversation logs.  
-
-### Features
-- **Cody import support** – Chat transcripts from Sourcegraph’s Cody can be imported directly.  
-- **Structured Knowledge Representation** – Conversations are organized into hierarchical sections, making them easier to revisit and navigate.  
-- **Markdown Display** – Content is rendered in Markdown for readability (view-only, no editing).  
-
-### Use Cases
-- Capturing iterative design sessions  
-- Generating structured technical or conceptual documentation  
-- Internal knowledge sharing (already used to generate multiple structured books for company use)  
-
-### Deployment
-The app was deployed both for personal use and internally within PaySpot, where it helped create six structured books from development sessions.  
-
-AI Knowledge Studio was also shared publicly on the Sourcegraph showcase, highlighting its potential as a **tool for knowledge capture and presentation**.
-
-
-![Editor Screenshot](images/projects/project-a/Toc.png)
-![Live Preview Screenshot](images/projects/project-a/Sidebar.png)
+---
